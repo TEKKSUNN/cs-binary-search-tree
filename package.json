@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "setup": "npm init && npm i -D @babel/core @babel/preset-env babel-jest jest && npm init @eslint/config@latest && npm i --save-dev --save-exact prettier",
+    "fix": "eslint --fix src/ && npx prettier --write src/*",
+    "test": "jest --watch *.js"
+  }
+}
