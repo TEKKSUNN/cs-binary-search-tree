@@ -1,7 +1,7 @@
 {
   "scripts": {
     "setup": "npm init && npm i -D @babel/core @babel/preset-env babel-jest jest && npm init @eslint/config@latest && npm i --save-dev --save-exact prettier",
-    "fix": "eslint --fix src/ && npx prettier --write src/*",
+    "fix": "eslint --fix src/ tests/ && npx prettier --write src/* tests/*",
     "test": "jest --watch *.js"
   },
   "name": "@tekksunn/cs-binary-search-tree",
