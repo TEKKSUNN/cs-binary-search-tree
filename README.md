@@ -15,7 +15,7 @@ This repository contains a JavaScript implementation of a Binary Search Tree (BS
 # Installation
 
 ```bash
-npm install @tekksunn/cs-hashmap
+npm install @tekksunn/cs-binary-search-tree
 ```
 
 ## Features
